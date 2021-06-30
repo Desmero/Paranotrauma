@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Paranotrauma" path="Mods/Paranotrauma/filelist.xml" corepackage="false" gameversion="0.9.0.0">
+  <Jobs file="Mods/Paranotrauma/Jobs.xml" />
+  <!-- <Afflictions file="Mods/Paranotrauma/Afflictions.xml" /> -->
+  <Text file="Mods/Paranotrauma/Texts/English/EnglishParanotrauma.xml" />
+  <Item file="Mods/Paranotrauma/Items/Jobgear/Common/common_gear.xml" />
+  <Item file="Mods/Paranotrauma/Items/Weapons/weapons.xml" />
+  
+</contentpackage>

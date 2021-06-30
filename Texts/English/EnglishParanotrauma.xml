@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+<!-- Jobs -->
+<jobname.leader>Leader d’Équipe</jobname.leader>
+<jobdescription.leader>Leader d’Équipe, chargé de mener le groupe.</jobdescription.leader>
+<jobname.material>Responsable du Matériel</jobname.material>
+<jobdescription.material>Responsable du Matériel, qui veille à ce que chacun prenne soin du matériel attribué.</jobdescription.material>
+<jobname.hygiene>Officier Chargé de l'Hygiène</jobname.hygiene>
+<jobdescription.hygiene>Officier Chargé de l'Hygiène, qui veille à la propreté des membres du groupe.</jobdescription.hygiene>
+<jobname.loyalty>Officier Garant de la Loyauté</jobname.loyalty>
+<jobdescription.loyalty>Officier Garant de la Loyauté, chargé de veiller à l'orthodoxie politique du groupe.</jobdescription.loyalty>
+<jobname.happiness>Officier Garant du Bonheur</jobname.happiness>
+<jobdescription.happiness>Officier Garant du Bonheur, chargé de remonter le moral des troupes (avec des substances chimiques, principalement).</jobdescription.happiness>
+<jobname.communication>Officier Responsable des Communications et des Enregistrements</jobname.communication>
+<jobdescription.communication>Officier Responsable des Communications et des Enregistrements, chargé d'enregistrer tout ce qui se passe (pour le débriefing), et de faire des rapports réguliers à l'Ordinateur.</jobdescription.communication>
+<jobname.watchman>Watchman</jobname.watchman>
+<jobdescription.watchman></jobdescription.watchman>
+<jobname.leader1>Rouge</jobname.leader1>
+<jobname.leader2>Orange</jobname.leader2>
+<jobname.leader3>Jaune</jobname.leader3>
+<jobname.material1>Rouge</jobname.material1>
+<jobname.material2>Orange</jobname.material2>
+<jobname.hygiene1>Rouge</jobname.hygiene1>
+<jobname.hygiene2>Orange</jobname.hygiene2>
+<jobname.loyalty1>Rouge</jobname.loyalty1>
+<jobname.loyalty2>Orange</jobname.loyalty2>
+<jobname.loyalty3>Jaune</jobname.loyalty3>
+<jobname.happiness1>Rouge</jobname.happiness1>
+<jobname.happiness2>Orange</jobname.happiness2>
+<jobdescription.leader1>A veteran of Europan seas, this leader either inspires loyalty in their crew or keeps them in line by force.</jobdescription.leader1>
+<jobdescription.leader2>Renegade leaders are a thorn in the establishment's side. They use a combination of daring and aggressive maneuvers to keep the Coalition off balance.</jobdescription.leader2>
+<jobdescription.leader3>leaders of the Coalition adhere to a strict set of rules. That doesn't stop them from coming up with new innovations to hunt down their enemies.</jobdescription.leader3>
+<jobdescription.material1>Nuclear materials are in charge of the sub's reactor. Occupational hazards require them to wear some protective gear against radiation.</jobdescription.material1>
+<jobdescription.material2>The submarine's fickle electrical systems need constant maintenance. The dubious honor of replacing fuses, hooking up devices with power and taking numerous electric shocks falls to electrical materials.</jobdescription.material2>
+<jobdescription.hygiene1>A hygiene's primary job in Europa is to plug leaks wherever they appear. These guys are trained to keep the hull, devices and equipment in shape.</jobdescription.hygiene1>
+<jobdescription.hygiene2>A hygiene variant that specializes in making art (and supplies) out of crude materials.</jobdescription.hygiene2>
+<jobdescription.loyalty1>Commandos are a special breed of security officer. They only have a single purpose: destroy the enemy, whether it's at range or mano a mano.</jobdescription.loyalty1>
+<jobdescription.loyalty2>These peacekeepers are dedicated to keeping the peace at any cost. Preferably but not necessarily using non-lethal force.</jobdescription.loyalty2>
+<jobdescription.loyalty3>Submarine gunners are trained not only to shoot accurately with coil and railguns but also to keep them in working condition.</jobdescription.loyalty3>
+<jobdescription.happiness1>Administering first aid often requires venturing into dangerous areas. These front-line medics have gear that offers them some protection against monsters and guns, while not compromising their mobility.</jobdescription.happiness1>
+<jobdescription.happiness2>These doctors are prepared to treat most, if not all, injuries that threaten the crew on lengthy trips underwater.</jobdescription.happiness2>
+
+
+
+<entityname.commonredsuit1>Red Suit</entityname.commonredsuit1>
+<entitydescription.commonredsuit1>Has a protective lead shielding against radiation.</entitydescription.commonredsuit1>
+
+
+</infotexts>
