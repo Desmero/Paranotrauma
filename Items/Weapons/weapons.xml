@@ -53,7 +53,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -97,7 +97,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -141,7 +141,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -185,7 +185,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -229,7 +229,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -273,7 +273,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -317,7 +317,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
@@ -361,7 +361,7 @@
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
-        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery">
+        <ItemContainer capacity="2" maxstacksize="1" hideitems="true" containedstateindicatorstyle="battery" showContainedStateIndicator="false">
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>

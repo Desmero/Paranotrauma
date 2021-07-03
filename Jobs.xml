@@ -26,6 +26,10 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
+                <Item identifier="red zapper" equip="true" showpreview="false">
+                    <Item identifier="batterycell" showpreview="false"/>
+                    <Item identifier="redzappercore" showpreview="false"/>
+                </Item>
                 <PreviewSprites dims="120,109">
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/red_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0"/>
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/red_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15"/>
@@ -36,6 +40,10 @@
                 <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
+                </Item>
+                <Item identifier="orangezapper" equip="true" showpreview="false">
+                    <Item identifier="batterycell" showpreview="false"/>
+                    <Item identifier="orangezappercore" showpreview="false"/>
                 </Item>
                 <PreviewSprites dims="120,109">
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/orange_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0"/>
@@ -48,6 +56,10 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
+                <Item identifier="yellowzapper" equip="true" showpreview="false">
+                    <Item identifier="batterycell" showpreview="false"/>
+                    <Item identifier="yellowzappercore" showpreview="false"/>
+                </Item>
                 <PreviewSprites dims="120,109">
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/yellow_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0"/>
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/yellow_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15"/>
@@ -59,6 +71,10 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
+                <Item identifier="greenwzapper" equip="true" showpreview="false">
+                    <Item identifier="batterycell" showpreview="false"/>
+                    <Item identifier="greenzappercore" showpreview="false"/>
+                </Item>
                 <PreviewSprites dims="120,109">
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/green_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0"/>
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/green_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15"/>
@@ -69,6 +85,10 @@
                 <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
+                </Item>
+                <Item identifier="bluezapper" equip="true" showpreview="false">
+                    <Item identifier="batterycell" showpreview="false"/>
+                    <Item identifier="bluezappercore" showpreview="false"/>
                 </Item>
                 <PreviewSprites dims="120,109">
                     <sprite texture="Mods/Paranotrauma/Items/Jobgear/Captain/blue_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0"/>
