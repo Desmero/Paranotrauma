@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <BouncyBubbleBeverageOriginal name="Bouncy Bubble Beverage Original" identifier="bouncybubbleo" aliases="B3" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <PreferredContainer primary="medcab" minamount="2" maxamount="5" />
+    <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="3" spawnprobability="0.5" />
+    <PreferredContainer primary="supplycab" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <PreferredContainer primary="outposttrashcan" minamount="0" maxamount="1" spawnprobability="0.15" />
+    <Price baseprice="100" >
+      <Price locationtype="outpost" multiplier="1" minavailable="12" />
+      <Price locationtype="city" multiplier="0.9" minavailable="16" />
+      <Price locationtype="research" multiplier="0.9" minavailable="18" />
+      <Price locationtype="military" multiplier="1" minavailable="16" />
+      <Price locationtype="mine" multiplier="0.75" minavailable="12" />
+    </Price>
+    <SuitableTreatment identifier="stress" suitability="50" />
+    <SuitableTreatment identifier="anxiety" suitability="50" />
+    <SuitableTreatment identifier="sadness" suitability="50" />
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="18" />
+      <RequiredItem identifier="opium" />
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="opium" copycondition="true" mincondition="0.1" />
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+      <Item identifier="carbon" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />
+    <Sprite texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />    
+    <Body width="35" height="65" density="20" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <RequiredSkill identifier="medical" level="50" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="15">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="sadness" amount="2" />
+        <Affliction identifier="happiness" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnFailure" target="Character" duration="15">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="sadness" amount="2" />
+        <Affliction identifier="happiness" amount="0.1" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+    
+  </BouncyBubbleBeverageOriginal>
+  <BouncyBubbleBeverageNew name="New Bouncy Bubble Beverage " identifier="newbouncybubble" aliases="B3" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <PreferredContainer primary="medcab" minamount="2" maxamount="5" />
+    <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="3" spawnprobability="0.5" />
+    <PreferredContainer primary="supplycab" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <PreferredContainer primary="outposttrashcan" minamount="0" maxamount="1" spawnprobability="0.15" />
+    <Price baseprice="100" >
+      <Price locationtype="outpost" multiplier="1" minavailable="12" />
+      <Price locationtype="city" multiplier="0.9" minavailable="16" />
+      <Price locationtype="research" multiplier="0.9" minavailable="18" />
+      <Price locationtype="military" multiplier="1" minavailable="16" />
+      <Price locationtype="mine" multiplier="0.75" minavailable="12" />
+    </Price>
+    <SuitableTreatment identifier="stress" suitability="50" />
+    <SuitableTreatment identifier="anxiety" suitability="50" />
+    <SuitableTreatment identifier="sadness" suitability="50" />
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="18" />
+      <RequiredItem identifier="opium" />
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="opium" copycondition="true" mincondition="0.1" />
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+      <Item identifier="carbon" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />
+    <Sprite texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />    
+    <Body width="35" height="65" density="20" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <RequiredSkill identifier="medical" level="50" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="2">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="anxiety" amount="10" />
+        <Affliction identifier="happiness" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnFailure" target="Character" duration="2">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="anxiety" amount="10" />
+        <Affliction identifier="happiness" amount="0.1" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+    
+  </BouncyBubbleBeverageNew>
+  
+  <BouncyBubbleBeverageCaffeine name="Bouncy Bubble Beverage Recaffeinated Lite flavors" identifier="bouncybubblecaffeine" aliases="B3" category="Material" maxstacksize="8" cargocontaineridentifier="mediccrate" Tags="smallitem,chem,medical,syringe" description="" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+    <Upgrade gameversion="0.10.0.0" scale="0.5" />
+    <PreferredContainer primary="medcab" minamount="2" maxamount="5" />
+    <PreferredContainer primary="wreckmedcab,abandonedmedcab" minamount="0" maxamount="3" spawnprobability="0.5" />
+    <PreferredContainer primary="supplycab" minamount="0" maxamount="3" spawnprobability="0.25" />
+    <PreferredContainer primary="outposttrashcan" minamount="0" maxamount="1" spawnprobability="0.15" />
+    <Price baseprice="100" >
+      <Price locationtype="outpost" multiplier="1" minavailable="12" />
+      <Price locationtype="city" multiplier="0.9" minavailable="16" />
+      <Price locationtype="research" multiplier="0.9" minavailable="18" />
+      <Price locationtype="military" multiplier="1" minavailable="16" />
+      <Price locationtype="mine" multiplier="0.75" minavailable="12" />
+    </Price>
+    <SuitableTreatment identifier="stress" suitability="50" />
+    <SuitableTreatment identifier="anxiety" suitability="50" />
+    <SuitableTreatment identifier="sadness" suitability="50" />
+    <Fabricate suitablefabricators="medicalfabricator" requiredtime="30">
+      <RequiredSkill identifier="medical" level="18" />
+      <RequiredItem identifier="opium" />
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="carbon" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="opium" copycondition="true" mincondition="0.1" />
+      <Item identifier="ethanol" copycondition="true" mincondition="0.1" />
+      <Item identifier="carbon" copycondition="true" mincondition="0.1" />
+    </Deconstruct>
+    <InventoryIcon texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />
+    <Sprite texture="bouncybubble.png" sourcerect="0,0,34,59" origin="0.5,0.5" />    
+    <Body width="35" height="65" density="20" />
+    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+      <RequiredSkill identifier="medical" level="50" />
+      <StatusEffect tags="medical" type="OnUse" target="Character" duration="2">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="stress" amount="10" />
+        <Affliction identifier="happiness" amount="0.1" />
+      </StatusEffect>
+      <StatusEffect tags="medical" type="OnFailure" target="Character" duration="2">
+        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />        
+        <Affliction identifier="stress" amount="10" />
+        <Affliction identifier="happiness" amount="0.5" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </MeleeWeapon>
+    
+  </BouncyBubbleBeverageCaffeine>
+  
+  
+  <Override>
+  <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+    <Upgrade gameversion="0.9.2.0" scale="0.5"/>
+    <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
+    <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
+    <Price baseprice="50" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1" minavailable="1" />
+      <Price locationtype="city" multiplier="1" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1" sold="false"/>
+    </Price>
+	<SuitableTreatment identifier="stress" suitability="50" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5" />
+    <Sprite texture="Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5" />
+    <Body radius="40" height="160" density="12" />
+    <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="OnUse" target="Character">
+        <Conditional HasStatusTag="!equals clown" />
+        <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="z" range="600" loop="true" />
+        <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+        <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" />
+		
+		
+		<Explosion range="500" force="0" shockwave="false" flash="true" sparks="false" flames="false" smoke="false" underwaterbubble="false" camerashake="0.0">
+			<Affliction identifier="sadness" strength="1" probability="0.1"  setvalue="true"/>
+			<Affliction identifier="happiness" strength="2" probability="0.1"  setvalue="true"/>
+        </Explosion>
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Character">
+        <Conditional HasStatusTag="clown" />
+        <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" range="600" loop="true" />
+		<Explosion range="500" force="0" shockwave="false" flames="false" smoke="false" underwaterbubble="false" >
+			<Affliction identifier="sadness" strength="1"  setvalue="true"/>
+			<Affliction identifier="happiness" strength="2"  setvalue="true"/>
+        </Explosion>
+		
+      </StatusEffect>
+    </Holdable>
+  </Item>
+  </Override>
+</Items>
