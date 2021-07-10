@@ -42,14 +42,19 @@
         <Sprite texture="zapper.png" sourcerect="0,0,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-100.0" disabledeltatime="true"/>
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-100" disabledeltatime="true">
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-100" disabledeltatime="true">
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
@@ -84,15 +89,18 @@
         <Sprite texture="zapper.png" sourcerect="78,0,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-50.0" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -128,15 +136,18 @@
         <Sprite texture="zapper.png" sourcerect="156,0,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-25.0" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -172,15 +183,18 @@
         <Sprite texture="zapper.png" sourcerect="0,38,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -216,15 +230,18 @@
         <Sprite texture="zapper.png" sourcerect="78,38,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -260,15 +277,18 @@
         <Sprite texture="zapper.png" sourcerect="156,38,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -304,15 +324,18 @@
         <Sprite texture="zapper.png" sourcerect="0,76,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
+                <RequiredItem items="batterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-0.78125" disabledeltatime="true">>
+                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -348,16 +371,10 @@
         <Sprite texture="zapper.png" sourcerect="78,76,78,38" depth="0.55" origin="0.5,0.5"/>
         <Body width="72" height="40" density="50"/>
         <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="90,10" handle1="-11,-7" msg="ItemMsgPickUpSelect"/>
-        <RangedWeapon barrelpos="14,6" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
+        <RangedWeapon barrelpos="14,13.5" spread="0" unskilledspread="2" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5">
             <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
-            <Sound file="Content/Items/Weapons/Revolver1.ogg" type="OnUse" range="3000" selectionmode="Random"/>
-            <Sound file="Content/Items/Weapons/Revolver2.ogg" type="OnUse" range="3000"/>
-            <Sound file="Content/Items/Weapons/Revolver3.ogg" type="OnUse" range="3000"/>
-            <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0"/>
-            <StatusEffect type="OnUse" targettype="Contained" Condition="0.0" disabledeltatime="true">
-                <!-- <Explosion range="150.0" force="5" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" /> -->
-            </StatusEffect>
+            <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
         </RangedWeapon>
@@ -592,7 +609,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,0,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="redburndamage" strength="40" />
             </Attack>
@@ -615,7 +632,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,127,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="orangeburndamage" strength="40" />
             </Attack>
@@ -638,7 +655,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="yellowburndamage" strength="40" />
             </Attack>
@@ -661,7 +678,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,255,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="greenburndamage" strength="40" />
             </Attack>
@@ -684,7 +701,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,255,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="blueburndamage" strength="40" />
             </Attack>
@@ -707,7 +724,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,0,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="indigoburndamage" strength="40" />
             </Attack>
@@ -730,7 +747,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,0,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="violetburndamage" strength="40" />
             </Attack>
@@ -753,7 +770,7 @@
         <Body width="29" height="10" density="40" />
         <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
-            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="1,0.6"/>
+            <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
                 <Affliction identifier="whiteburndamage" strength="40" />
             </Attack>

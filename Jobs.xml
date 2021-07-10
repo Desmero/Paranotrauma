@@ -26,7 +26,7 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
-                <Item identifier="red zapper" equip="true" showpreview="false">
+                <Item identifier="red zapper" equip="false" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                     <Item identifier="redzappercore" showpreview="false"/>
                 </Item>
@@ -41,7 +41,7 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
-                <Item identifier="orangezapper" equip="true" showpreview="false">
+                <Item identifier="orangezapper" equip="false" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                     <Item identifier="orangezappercore" showpreview="false"/>
                 </Item>
@@ -56,7 +56,7 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
-                <Item identifier="yellowzapper" equip="true" showpreview="false">
+                <Item identifier="yellowzapper" equip="false" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                     <Item identifier="yellowzappercore" showpreview="false"/>
                 </Item>
@@ -71,7 +71,7 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
-                <Item identifier="greenwzapper" equip="true" showpreview="false">
+                <Item identifier="greenzapper" equip="false" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                     <Item identifier="greenzappercore" showpreview="false"/>
                 </Item>
@@ -86,7 +86,7 @@
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
-                <Item identifier="bluezapper" equip="true" showpreview="false">
+                <Item identifier="bluezapper" equip="false" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                     <Item identifier="bluezappercore" showpreview="false"/>
                 </Item>
