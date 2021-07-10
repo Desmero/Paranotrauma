@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Override>
+    <Items>
+        <Item name="" identifier="guitar" category="Misc" Tags="bigitem" scale="0.5" description="" price="300" isshootable="true">
+            <Upgrade gameversion="0.9.2.0" scale="0.5"/>
+            <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
+            <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
+            <Price baseprice="50" soldeverywhere="false">
+                <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+                <Price locationtype="city" multiplier="1" sold="false"/>
+                <Price locationtype="research" multiplier="1" sold="false"/>
+                <Price locationtype="military" multiplier="1" sold="false"/>
+                <Price locationtype="mine" multiplier="1" sold="false"/>
+            </Price>
+            <SuitableTreatment identifier="stress" suitability="50"/>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,256,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="0,0,97,254" depth="0.5" origin="0.5,0.5"/>
+            <Body radius="40" height="160" density="12"/>
+            <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true"
+                      msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnUse" target="Character">
+                    <Conditional HasStatusTag="!equals clown"/>
+                    <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="z" range="600" loop="true"/>
+                    <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true"/>
+                    <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true"/>
+                    <Explosion range="500" force="0" shockwave="false" flash="true" sparks="false" flames="false" smoke="false" underwaterbubble="false" camerashake="0.0">
+                        <Affliction identifier="sadness" strength="1" probability="0.1" setvalue="true"/>
+                        <Affliction identifier="happiness" strength="2" probability="0.1" setvalue="true"/>
+                    </Explosion>
+                </StatusEffect>
+                <StatusEffect type="OnUse" target="Character">
+                    <Conditional HasStatusTag="clown"/>
+                    <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" range="600" loop="true"/>
+                    <Explosion range="500" force="0" shockwave="false" flames="false" smoke="false" underwaterbubble="false">
+                        <Affliction identifier="sadness" strength="1" setvalue="true"/>
+                        <Affliction identifier="happiness" strength="2" setvalue="true"/>
+                    </Explosion>
+                </StatusEffect>
+            </Holdable>
+        </Item>
+    </Items>
+</Override>
