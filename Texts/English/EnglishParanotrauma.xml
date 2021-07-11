@@ -1,78 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
 
-<!-- Jobs -->
-<jobname.captain>Leader d’Équipe</jobname.captain>
-<jobdescription.captain>Leader d’Équipe, chargé de mener le groupe.</jobdescription.captain>
-<jobname.engineer>Responsable du Matériel</jobname.engineer>
-<jobdescription.engineer>Responsable du Matériel, qui veille à ce que chacun prenne soin du matériel attribué.</jobdescription.engineer>
-<jobname.mechanic>Officier Chargé de l'Hygiène</jobname.mechanic>
-<jobdescription.mechanic>Officier Chargé de l'Hygiène, qui veille à la propreté des membres du groupe.</jobdescription.mechanic>
-<jobname.securityofficer>Officier Garant de la Loyauté</jobname.securityofficer>
-<jobdescription.securityofficer>Officier Garant de la Loyauté, chargé de veiller à l'orthodoxie politique du groupe.</jobdescription.securityofficer>
-<jobname.medicaldoctor>Officier Garant du Bonheur</jobname.medicaldoctor>
-<jobdescription.medicaldoctor>Officier Garant du Bonheur, chargé de remonter le moral des troupes (avec des substances chimiques, principalement).</jobdescription.medicaldoctor>
-<jobname.assistant>Officier Responsable des Communications et des Enregistrements</jobname.assistant>
-<jobdescription.assistant>Officier Responsable des Communications et des Enregistrements, chargé d'enregistrer tout ce qui se passe (pour le débriefing), et de faire des rapports réguliers à l'Ordinateur.</jobdescription.assistant>
-<jobname.captain1>Rouge</jobname.captain1>
-<jobname.captain2>Orange</jobname.captain2>
-<jobname.captain3>Jaune</jobname.captain3>
-<jobname.captain4>Vert</jobname.captain4>
-<jobname.captain5>Bleu</jobname.captain5>
-<jobname.engineer1>Rouge</jobname.engineer1>
-<jobname.engineer2>Orange</jobname.engineer2>
-<jobname.engineer3>Jaune</jobname.engineer3>
-<jobname.engineer4>Vert</jobname.engineer4>
-<jobname.engineer5>Bleu</jobname.engineer5>
-<jobname.mechanic1>Rouge</jobname.mechanic1>
-<jobname.mechanic2>Orange</jobname.mechanic2>
-<jobname.mechanic3>Jaune</jobname.mechanic3>
-<jobname.mechanic4>Vert</jobname.mechanic4>
-<jobname.mechanic5>Bleu</jobname.mechanic5>
-<jobname.securityofficer1>Rouge</jobname.securityofficer1>
-<jobname.securityofficer2>Orange</jobname.securityofficer2>
-<jobname.securityofficer3>Jaune</jobname.securityofficer3>
-<jobname.securityofficer4>Vert</jobname.securityofficer4>
-<jobname.securityofficer5>Bleu</jobname.securityofficer5>
-<jobname.medicaldoctor1>Rouge</jobname.medicaldoctor1>
-<jobname.medicaldoctor2>Orange</jobname.medicaldoctor2>
-<jobname.medicaldoctor3>Jaune</jobname.medicaldoctor3>
-<jobname.medicaldoctor4>Vert</jobname.medicaldoctor4>
-<jobname.medicaldoctor5>Bleu</jobname.medicaldoctor5>
-<jobdescription.captain1>A veteran of Europan seas, this leader either inspires loyalty in their crew or keeps them in line by force.</jobdescription.captain1>
-<jobdescription.captain2>Renegade leaders are a thorn in the establishment's side. They use a combination of daring and aggressive maneuvers to keep the Coalition off balance.</jobdescription.captain2>
-<jobdescription.captain3>leaders of the Coalition adhere to a strict set of rules. That doesn't stop them from coming up with new innovations to hunt down their enemies.</jobdescription.captain3>
-<jobdescription.engineer1>Nuclear materials are in charge of the sub's reactor. Occupational hazards require them to wear some protective gear against radiation.</jobdescription.engineer1>
-<jobdescription.engineer2>The submarine's fickle electrical systems need constant maintenance. The dubious honor of replacing fuses, hooking up devices with power and taking numerous electric shocks falls to electrical materials.</jobdescription.engineer2>
-<jobdescription.mechanic1>A hygiene's primary job in Europa is to plug leaks wherever they appear. These guys are trained to keep the hull, devices and equipment in shape.</jobdescription.mechanic1>
-<jobdescription.mechanic2>A hygiene variant that specializes in making art (and supplies) out of crude materials.</jobdescription.mechanic2>
-<jobdescription.securityofficer1>Commandos are a special breed of security officer. They only have a single purpose: destroy the enemy, whether it's at range or mano a mano.</jobdescription.securityofficer1>
-<jobdescription.securityofficer2>These peacekeepers are dedicated to keeping the peace at any cost. Preferably but not necessarily using non-lethal force.</jobdescription.securityofficer2>
-<jobdescription.securityofficer3>Submarine gunners are trained not only to shoot accurately with coil and railguns but also to keep them in working condition.</jobdescription.securityofficer3>
-<jobdescription.medicaldoctor1>Administering first aid often requires venturing into dangerous areas. These front-line medics have gear that offers them some protection against monsters and guns, while not compromising their mobility.</jobdescription.medicaldoctor1>
-<jobdescription.medicaldoctor2>These doctors are prepared to treat most, if not all, injuries that threaten the crew on lengthy trips underwater.</jobdescription.medicaldoctor2>
+    <!-- Jobs -->
+    <jobname.captain>Leader d’Équipe</jobname.captain>
+    <jobdescription.captain>Leader d’Équipe, chargé de mener le groupe.</jobdescription.captain>
+    <jobname.engineer>Responsable du Matériel</jobname.engineer>
+    <jobdescription.engineer>Responsable du Matériel, qui veille à ce que chacun prenne soin du matériel attribué.</jobdescription.engineer>
+    <jobname.mechanic>Officier Chargé de l'Hygiène</jobname.mechanic>
+    <jobdescription.mechanic>Officier Chargé de l'Hygiène, qui veille à la propreté des membres du groupe.</jobdescription.mechanic>
+    <jobname.securityofficer>Officier Garant de la Loyauté</jobname.securityofficer>
+    <jobdescription.securityofficer>Officier Garant de la Loyauté, chargé de veiller à l'orthodoxie politique du groupe.</jobdescription.securityofficer>
+    <jobname.medicaldoctor>Officier Garant du Bonheur</jobname.medicaldoctor>
+    <jobdescription.medicaldoctor>Officier Garant du Bonheur, chargé de remonter le moral des troupes (avec des substances chimiques, principalement).
+    </jobdescription.medicaldoctor>
+    <jobname.assistant>Officier Responsable des Communications et des Enregistrements</jobname.assistant>
+    <jobdescription.assistant>Officier Responsable des Communications et des Enregistrements, chargé d'enregistrer tout ce qui se passe (pour le débriefing), et de faire des
+        rapports réguliers à l'Ordinateur.
+    </jobdescription.assistant>
+    <jobname.captain1>Rouge</jobname.captain1>
+    <jobname.captain2>Orange</jobname.captain2>
+    <jobname.captain3>Jaune</jobname.captain3>
+    <jobname.captain4>Vert</jobname.captain4>
+    <jobname.captain5>Bleu</jobname.captain5>
+    <jobname.engineer1>Rouge</jobname.engineer1>
+    <jobname.engineer2>Orange</jobname.engineer2>
+    <jobname.engineer3>Jaune</jobname.engineer3>
+    <jobname.engineer4>Vert</jobname.engineer4>
+    <jobname.engineer5>Bleu</jobname.engineer5>
+    <jobname.mechanic1>Rouge</jobname.mechanic1>
+    <jobname.mechanic2>Orange</jobname.mechanic2>
+    <jobname.mechanic3>Jaune</jobname.mechanic3>
+    <jobname.mechanic4>Vert</jobname.mechanic4>
+    <jobname.mechanic5>Bleu</jobname.mechanic5>
+    <jobname.securityofficer1>Rouge</jobname.securityofficer1>
+    <jobname.securityofficer2>Orange</jobname.securityofficer2>
+    <jobname.securityofficer3>Jaune</jobname.securityofficer3>
+    <jobname.securityofficer4>Vert</jobname.securityofficer4>
+    <jobname.securityofficer5>Bleu</jobname.securityofficer5>
+    <jobname.medicaldoctor1>Rouge</jobname.medicaldoctor1>
+    <jobname.medicaldoctor2>Orange</jobname.medicaldoctor2>
+    <jobname.medicaldoctor3>Jaune</jobname.medicaldoctor3>
+    <jobname.medicaldoctor4>Vert</jobname.medicaldoctor4>
+    <jobname.medicaldoctor5>Bleu</jobname.medicaldoctor5>
+    <jobdescription.captain1>A veteran of Europan seas, this leader either inspires loyalty in their crew or keeps them in line by force.</jobdescription.captain1>
+    <jobdescription.captain2>Renegade leaders are a thorn in the establishment's side. They use a combination of daring and aggressive maneuvers to keep the Coalition off
+        balance.
+    </jobdescription.captain2>
+    <jobdescription.captain3>leaders of the Coalition adhere to a strict set of rules. That doesn't stop them from coming up with new innovations to hunt down their enemies.
+    </jobdescription.captain3>
+    <jobdescription.engineer1>Nuclear materials are in charge of the sub's reactor. Occupational hazards require them to wear some protective gear against radiation.
+    </jobdescription.engineer1>
+    <jobdescription.engineer2>The submarine's fickle electrical systems need constant maintenance. The dubious honor of replacing fuses, hooking up devices with power and taking
+        numerous electric shocks falls to electrical materials.
+    </jobdescription.engineer2>
+    <jobdescription.mechanic1>A hygiene's primary job in Europa is to plug leaks wherever they appear. These guys are trained to keep the hull, devices and equipment in shape.
+    </jobdescription.mechanic1>
+    <jobdescription.mechanic2>A hygiene variant that specializes in making art (and supplies) out of crude materials.</jobdescription.mechanic2>
+    <jobdescription.securityofficer1>Commandos are a special breed of security officer. They only have a single purpose: destroy the enemy, whether it's at range or mano a mano.
+    </jobdescription.securityofficer1>
+    <jobdescription.securityofficer2>These peacekeepers are dedicated to keeping the peace at any cost. Preferably but not necessarily using non-lethal force.
+    </jobdescription.securityofficer2>
+    <jobdescription.securityofficer3>Submarine gunners are trained not only to shoot accurately with coil and railguns but also to keep them in working condition.
+    </jobdescription.securityofficer3>
+    <jobdescription.medicaldoctor1>Administering first aid often requires venturing into dangerous areas. These front-line medics have gear that offers them some protection against
+        monsters and guns, while not compromising their mobility.
+    </jobdescription.medicaldoctor1>
+    <jobdescription.medicaldoctor2>These doctors are prepared to treat most, if not all, injuries that threaten the crew on lengthy trips underwater.
+    </jobdescription.medicaldoctor2>
 
 
+    <entityname.commonredsuit1>Red Suit</entityname.commonredsuit1>
+    <entitydescription.commonredsuit1>Has a protective lead shielding against radiation.</entitydescription.commonredsuit1>
 
-<entityname.commonredsuit1>Red Suit</entityname.commonredsuit1>
-<entitydescription.commonredsuit1>Has a protective lead shielding against radiation.</entitydescription.commonredsuit1>
-
-<entityname.redzappercore>Red zapper core</entityname.redzappercore>
-<entityname.redzapperround>Red zapper round</entityname.redzapperround>
-<entityname.orangezappercore>Orange zapper core</entityname.orangezappercore>
-<entityname.orangezapperround>Orange zapper round</entityname.orangezapperround>
-<entityname.yellowzappercore>Yellow zapper core</entityname.yellowzappercore>
-<entityname.yellowzapperround>Yellow zapper round</entityname.yellowzapperround>
-<entityname.greenzappercore>Green zapper core</entityname.greenzappercore>
-<entityname.greenzapperround>Green zapper round</entityname.greenzapperround>
-<entityname.bluezappercore>Blue zapper core</entityname.bluezappercore>
-<entityname.bluezapperround>Blue zapper round</entityname.bluezapperround>
-<entityname.indigozappercore>Indigo zapper core</entityname.indigozappercore>
-<entityname.indigozapperround>Indigo zapper round</entityname.indigozapperround>
-<entityname.violetzappercore>Violet zapper core</entityname.violetzappercore>
-<entityname.violetzapperround>Violet zapper round</entityname.violetzapperround>
-<entityname.whitezappercore>White zapper core</entityname.whitezappercore>
-<entityname.whitezapperround>White zapper round</entityname.whitezapperround>
+    <entityname.redzappercore>Red zapper core</entityname.redzappercore>
+    <entityname.redzapperround>Red zapper round</entityname.redzapperround>
+    <entityname.orangezappercore>Orange zapper core</entityname.orangezappercore>
+    <entityname.orangezapperround>Orange zapper round</entityname.orangezapperround>
+    <entityname.yellowzappercore>Yellow zapper core</entityname.yellowzappercore>
+    <entityname.yellowzapperround>Yellow zapper round</entityname.yellowzapperround>
+    <entityname.greenzappercore>Green zapper core</entityname.greenzappercore>
+    <entityname.greenzapperround>Green zapper round</entityname.greenzapperround>
+    <entityname.bluezappercore>Blue zapper core</entityname.bluezappercore>
+    <entityname.bluezapperround>Blue zapper round</entityname.bluezapperround>
+    <entityname.indigozappercore>Indigo zapper core</entityname.indigozappercore>
+    <entityname.indigozapperround>Indigo zapper round</entityname.indigozapperround>
+    <entityname.violetzappercore>Violet zapper core</entityname.violetzappercore>
+    <entityname.violetzapperround>Violet zapper round</entityname.violetzapperround>
+    <entityname.whitezappercore>White zapper core</entityname.whitezappercore>
+    <entityname.whitezapperround>White zapper round</entityname.whitezapperround>
 
 
 </infotexts>

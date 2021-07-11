@@ -1,75 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
-	<Affliction name="Stress" identifier="stress" description="High blood pressure and heart rate, dilated pupil and random grunting." type="poison" causeofdeathdescription="Nervous breakdown" selfcauseofdeathdescription="You have died of nervous breakdown." limbspecific="false" indicatorlimb="Head" activationthreshold="0" maxstrength="100">
-		<!-- niveau de stress léger : augmentation de vitesse, baisse de compétence technique-->
-		<Effect minstrength="50" maxstrength="80" minskillmultiplier="1.0" maxskillmultiplier="0.7">
-			<StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
-		</Effect>
-		<!-- niveau de stress maximal : la psychose monte et les dégat interne aussi -->
-		<Effect minstrength="80" maxstrength="100"  dialogflag="DrunkMedium">
-			<StatusEffect target="Character" SpeedMultiplier="1.1" setvalue="true"/>fdc
-			<StatusEffect target="Character">
-				<Affliction identifier="psychosis" strength="1" setvalue="true"/>
-			</StatusEffect>
-			<StatusEffect target="Character">
-				<Affliction identifier="organdamage" strength="2" probability="0.02" setvalue="true"/>
-			</StatusEffect>
-		</Effect>
-		<icon texture="Mods/Paranotrauma/UI/stress.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
-	</Affliction>
-	<Affliction name="Anxiety" identifier="anxiety" description="Super fast heart rate and short breath, can't maintain eyes contact." type="poison" causeofdeathdescription="Cardiac arrest" selfcauseofdeathdescription="Your panic attack killed your heart." limbspecific="false" indicatorlimb="Head" activationthreshold="0" maxstrength="100">
-		<Effect minstrength="60" maxstrength="80" minskillmultiplier="1.0" maxskillmultiplier="0.7">
-			<StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
-			
-		</Effect>
-		<Effect minstrength="80" maxstrength="98" minskillmultiplier="0.7" maxskillmultiplier="0.5">
-			<StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
-			<StatusEffect target="Character">
-				<Affliction identifier="anxiety" strength="20" probability="0.01" setvalue="true"/>
-			</StatusEffect>
-		</Effect>
-		<Effect minstrength="98" maxstrength="100" dialogflag="DrunkMedium" strengthchange="-0.5">
-			<StatusEffect target="Character">
-				<Affliction identifier="oxygenlow" strength="15" setvalue="true"/>
-			</StatusEffect>
-			<StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true"/>
-		</Effect>
-		<icon texture="Mods/Paranotrauma/UI/anxiety.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
-	</Affliction>
-	<Affliction name="Sadness" identifier="sadness" description="Low blood pressure, red eyes and random tears dropping." type="poison" causeofdeathdescription="Excessive sadness" selfcauseofdeathdescription="Your desire to live ended." limbspecific="false" indicatorlimb="Head" activationthreshold="0" maxstrength="100">
-		<!-- niveau de tristesse léger : diminution de vitesse, baisse de compétence technique-->
-		<Effect minstrength="50" maxstrength="70" minskillmultiplier="1.0" maxskillmultiplier="0.9" minscreendistort="0.0" maxscreendistort="0.3" minscreenblur="0.0" maxscreenblur="0.3">
-			<StatusEffect target="Character" SpeedMultiplier="0.95" setvalue="true"/>
-		</Effect>
-		<!-- gros chagrin :les larmes coulent, la vitesse est réduite graduellement-->
-		<Effect minstrength="70" maxstrength="90" minskillmultiplier="1.0" maxskillmultiplier="0.8" minscreendistort="0.4" maxscreendistort="0.6" minscreenblur="0.4" maxscreenblur="0.6">
-			<StatusEffect target="Character" SpeedMultiplier="0.95" setvalue="true"/>
-		</Effect>
-		<!-- dépression totale :  -->
-		<Effect minstrength="90" maxstrength="99" strengthchange="0.5" minskillmultiplier="0.8" maxskillmultiplier="0.5" minscreendistort="0.6" maxscreendistort="0.8" minscreenblur="0.6" maxscreenblur="0.8">
-			<StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true"/>
-		</Effect>
-		<Effect minstrength="99" maxstrength="100" strengthchange="0.5" minscreendistort="0.9" maxscreendistort="0.9" minscreenblur="0.9" maxscreenblur="0.9">
-			<StatusEffect target="Character" SpeedMultiplier="0" setvalue="true"/>
-		</Effect>
-		<icon texture="Mods/Paranotrauma/UI/sadness.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
-	</Affliction>
-	<Affliction name="Happiness" identifier="happiness" description="What the fuck is wrong with him ?" type="resistance" isbuff="true" causeofdeathdescription="Excessive happiness" selfcauseofdeathdescription="You reached the nirvana." limbspecific="false" indicatorlimb="Head" activationthreshold="0" maxstrength="100">
-		<!-- niveau de bonheur faible. se résorbe mais augmente la tristesse-->
-		<Effect minstrength="0" maxstrength="60" strengthchange="0.2">
-			<Affliction identifier="sadness" strength="1" probability="0.2"/>
-			<Affliction identifier="stress" strength="0.5" probability="0.1"/>
-			<Affliction identifier="anxiety" strength="0.5" probability="0.1"/>
-		</Effect>
-		<!-- niveau de bonheur normal : aucun effet, stable.-->
-		<Effect minstrength="60" maxstrength="80"/>
-		<!-- niveau de bonheur maximal : réduit la tristesse, le stress et l'anxieté, bonus de PV et de vitesse-->
-		<Effect minstrength="80" maxstrength="100" strengthchange="-0.1" resistancefor="damage" minresistance="0" maxresistance="0.5">
-			<StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
-			<Affliction identifier="sadness" strength="-2" probability="0.5"/>
-			<Affliction identifier="stress" strength="-1" probability="0.5"/>
-			<Affliction identifier="anxiety" strength="-1" probability="0.5"/>
-		</Effect>
-		<icon texture="Mods/Paranotrauma/UI/happiness.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
-	</Affliction>
+    <Affliction name="Stress" identifier="stress" description="High blood pressure and heart rate, dilated pupil and random grunting." type="poison"
+                causeofdeathdescription="Nervous breakdown" selfcauseofdeathdescription="You have died of nervous breakdown." limbspecific="false" indicatorlimb="Head"
+                activationthreshold="0" maxstrength="100">
+        <!-- niveau de stress léger : augmentation de vitesse, baisse de compétence technique-->
+        <Effect minstrength="50" maxstrength="80" minskillmultiplier="1.0" maxskillmultiplier="0.7">
+            <StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
+        </Effect>
+        <!-- niveau de stress maximal : la psychose monte et les dégat interne aussi -->
+        <Effect minstrength="80" maxstrength="100" dialogflag="DrunkMedium">
+            <StatusEffect target="Character" SpeedMultiplier="1.1" setvalue="true"/>fdc
+            <StatusEffect target="Character">
+                <Affliction identifier="psychosis" strength="1" setvalue="true"/>
+            </StatusEffect>
+            <StatusEffect target="Character">
+                <Affliction identifier="organdamage" strength="2" probability="0.02" setvalue="true"/>
+            </StatusEffect>
+        </Effect>
+        <icon texture="Mods/Paranotrauma/UI/stress.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
+    </Affliction>
+    <Affliction name="Anxiety" identifier="anxiety" description="Super fast heart rate and short breath, can't maintain eyes contact." type="poison"
+                causeofdeathdescription="Cardiac arrest" selfcauseofdeathdescription="Your panic attack killed your heart." limbspecific="false" indicatorlimb="Head"
+                activationthreshold="0" maxstrength="100">
+        <Effect minstrength="60" maxstrength="80" minskillmultiplier="1.0" maxskillmultiplier="0.7">
+            <StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
+
+        </Effect>
+        <Effect minstrength="80" maxstrength="98" minskillmultiplier="0.7" maxskillmultiplier="0.5">
+            <StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
+            <StatusEffect target="Character">
+                <Affliction identifier="anxiety" strength="20" probability="0.01" setvalue="true"/>
+            </StatusEffect>
+        </Effect>
+        <Effect minstrength="98" maxstrength="100" dialogflag="DrunkMedium" strengthchange="-0.5">
+            <StatusEffect target="Character">
+                <Affliction identifier="oxygenlow" strength="15" setvalue="true"/>
+            </StatusEffect>
+            <StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true"/>
+        </Effect>
+        <icon texture="Mods/Paranotrauma/UI/anxiety.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
+    </Affliction>
+    <Affliction name="Sadness" identifier="sadness" description="Low blood pressure, red eyes and random tears dropping." type="poison" causeofdeathdescription="Excessive sadness"
+                selfcauseofdeathdescription="Your desire to live ended." limbspecific="false" indicatorlimb="Head" activationthreshold="0" maxstrength="100">
+        <!-- niveau de tristesse léger : diminution de vitesse, baisse de compétence technique-->
+        <Effect minstrength="50" maxstrength="70" minskillmultiplier="1.0" maxskillmultiplier="0.9" minscreendistort="0.0" maxscreendistort="0.3" minscreenblur="0.0"
+                maxscreenblur="0.3">
+            <StatusEffect target="Character" SpeedMultiplier="0.95" setvalue="true"/>
+        </Effect>
+        <!-- gros chagrin :les larmes coulent, la vitesse est réduite graduellement-->
+        <Effect minstrength="70" maxstrength="90" minskillmultiplier="1.0" maxskillmultiplier="0.8" minscreendistort="0.4" maxscreendistort="0.6" minscreenblur="0.4"
+                maxscreenblur="0.6">
+            <StatusEffect target="Character" SpeedMultiplier="0.95" setvalue="true"/>
+        </Effect>
+        <!-- dépression totale :  -->
+        <Effect minstrength="90" maxstrength="99" strengthchange="0.5" minskillmultiplier="0.8" maxskillmultiplier="0.5" minscreendistort="0.6" maxscreendistort="0.8"
+                minscreenblur="0.6" maxscreenblur="0.8">
+            <StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true"/>
+        </Effect>
+        <Effect minstrength="99" maxstrength="100" strengthchange="0.5" minscreendistort="0.9" maxscreendistort="0.9" minscreenblur="0.9" maxscreenblur="0.9">
+            <StatusEffect target="Character" SpeedMultiplier="0" setvalue="true"/>
+        </Effect>
+        <icon texture="Mods/Paranotrauma/UI/sadness.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
+    </Affliction>
+    <Affliction name="Happiness" identifier="happiness" description="What the fuck is wrong with him ?" type="resistance" isbuff="true"
+                causeofdeathdescription="Excessive happiness" selfcauseofdeathdescription="You reached the nirvana." limbspecific="false" indicatorlimb="Head"
+                activationthreshold="0" maxstrength="100">
+        <!-- niveau de bonheur faible. se résorbe mais augmente la tristesse-->
+        <Effect minstrength="0" maxstrength="60" strengthchange="0.2">
+            <Affliction identifier="sadness" strength="1" probability="0.2"/>
+            <Affliction identifier="stress" strength="0.5" probability="0.1"/>
+            <Affliction identifier="anxiety" strength="0.5" probability="0.1"/>
+        </Effect>
+        <!-- niveau de bonheur normal : aucun effet, stable.-->
+        <Effect minstrength="60" maxstrength="80"/>
+        <!-- niveau de bonheur maximal : réduit la tristesse, le stress et l'anxieté, bonus de PV et de vitesse-->
+        <Effect minstrength="80" maxstrength="100" strengthchange="-0.1" resistancefor="damage" minresistance="0" maxresistance="0.5">
+            <StatusEffect target="Character" SpeedMultiplier="1.05" setvalue="true"/>
+            <Affliction identifier="sadness" strength="-2" probability="0.5"/>
+            <Affliction identifier="stress" strength="-1" probability="0.5"/>
+            <Affliction identifier="anxiety" strength="-1" probability="0.5"/>
+        </Effect>
+        <icon texture="Mods/Paranotrauma/UI/happiness.png" sourcerect="0,0,128,128" color="170,194,147,255" origin="0,0"/>
+    </Affliction>
 </Afflictions>

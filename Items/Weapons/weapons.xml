@@ -47,13 +47,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-100" disabledeltatime="true">
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-100" disabledeltatime="true">
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -62,7 +62,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -94,13 +94,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-50" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -109,7 +109,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -141,13 +141,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-25" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -156,7 +156,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -188,13 +188,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-12.5" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -203,7 +203,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -235,13 +235,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-6.25" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -250,7 +250,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -282,13 +282,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-3.125" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -297,7 +297,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -329,13 +329,13 @@
             <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
             <Sound file="Mods/Paranotrauma/Items/Weapons/Zap.ogg" type="OnUse" range="3000" selectionmode="Random"/>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
-                <RequiredItem items="batterycell" type="Contained" />
+                <RequiredItem items="batterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-0.78125" disabledeltatime="true">>
-                <RequiredItem items="fulguriumbatterycell" type="Contained" />
+                <RequiredItem items="fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="Contained" Condition="-1.5625" disabledeltatime="true">>
-                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+                <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained"/>
             </StatusEffect>
             <RequiredItems items="mobilebattery" type="Contained" msg="ItemMsgAmmoRequired"/>
             <RequiredSkill identifier="weapons" level="40"/>
@@ -344,7 +344,7 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
@@ -382,408 +382,441 @@
             <Containable items="mobilebattery">
                 <StatusEffect type="OnContaining" targettype="This" Voltage="100.0" setvalue="true"/>
             </Containable>
-            <Containable items="zappercore" />
+            <Containable items="zappercore"/>
         </ItemContainer>
         <aitarget sightrange="2000" soundrange="5000" fadeouttime="5"/>
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Red Zapper Core" identifier="redzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Red Zapper Core" identifier="redzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="redzapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="0,0,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="redzapperround" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="redzapperround"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="redzapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="redzapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Orange Zapper Core" identifier="orangezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Orange Zapper Core" identifier="orangezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="orangezapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="32,0,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="32,0,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="orangezapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="32,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="32,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="orangezapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="orangezapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="orangezapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Yellow Zapper Core" identifier="yellowzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Yellow Zapper Core" identifier="yellowzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="yellowzapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="64,0,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="64,0,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">            <Containable identifiers="yellowzapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="64,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="64,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="yellowzapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="yellowzapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="yellowzapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Green Zapper Core" identifier="greenzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Green Zapper Core" identifier="greenzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="greenzapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="0,32,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="0,32,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="greenzapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="0,32,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="0,32,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="greenzapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="greenzapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="greenzapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Blue Zapper Core" identifier="bluezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Blue Zapper Core" identifier="bluezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="bluezapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="32,32,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="32,32,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="bluezapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="32,32,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="32,32,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="bluezapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="bluezapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="bluezapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Indigo Zapper Core" identifier="indigozappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Indigo Zapper Core" identifier="indigozappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="indigozapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="64,32,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="64,32,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="indigozapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="64,32,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="64,32,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="indigozapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="indigozapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="indigozapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Violet Zapper Core" identifier="violetzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="Violet Zapper Core" identifier="violetzappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="violetzapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="0,64,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="0,64,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="violetzapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="0,64,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="0,64,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="violetzapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="violetzapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="violetzapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="White Zapper Core" identifier="whitezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
+    <Item name="White Zapper Core" identifier="whitezappercore" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zappercore" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="whitezapper" minamount="1" maxamount="1" spawnprobability="1"/>
         <PreferredContainer primary="secarmcab" minamount="0" maxamount="10" spawnprobability="0.25"/>
         <PreferredContainer primary="wrecksecarmcab" minamount="0" maxamount="3" spawnprobability="0.25"/>
         <PreferredContainer primary="abandonedsecarmcab" minamount="0" maxamount="7" spawnprobability="0.25"/>
         <Price baseprice="30" soldeverywhere="false">
-            <Price locationtype="outpost" multiplier="1.5" minavailable="6" />
-            <Price locationtype="city" multiplier="1.25" minavailable="12" />
-            <Price locationtype="research" multiplier="1.25" minavailable="6" />
-            <Price locationtype="military" multiplier="0.9" minavailable="24" />
-            <Price locationtype="mine" multiplier="1.25" minavailable="12" />
+            <Price locationtype="outpost" multiplier="1.5" minavailable="6"/>
+            <Price locationtype="city" multiplier="1.25" minavailable="12"/>
+            <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+            <Price locationtype="military" multiplier="0.9" minavailable="24"/>
+            <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
-        <InventoryIcon texture="zapperCore.png" sourcerect="32,64,32,32" origin="0.5,0.5" />
-        <Sprite texture="zapperCore.png" sourcerect="32,64,32,32" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
-        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowContainedStateIndicator="false">
-            <Containable identifiers="whitezapperround" />
-            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+        <InventoryIcon texture="zapperCore.png" sourcerect="32,64,32,32" origin="0.5,0.5"/>
+        <Sprite texture="zapperCore.png" sourcerect="32,64,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false"
+                       ShowContainedStateIndicator="false">
+            <Containable identifiers="whitezapperround"/>
+            <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32"/>
             <StatusEffect type="OnUse" target="This" condition="-4" disabledeltatime="true"/>
             <StatusEffect type="OnContained" target="This" Condition="+100.0" disabledeltatime="true">
-                <SpawnItem identifiers="whitezapperround" spawnposition="ThisInventory" />
+                <SpawnItem identifiers="whitezapperround" spawnposition="ThisInventory"/>
             </StatusEffect>
         </ItemContainer>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Red Zapper Round" identifier="redzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Red Zapper Round" identifier="redzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="redzappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,0,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="redburndamage" strength="40" />
+                <Affliction identifier="redburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Orange Zapper Round" identifier="orangezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Orange Zapper Round" identifier="orangezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="orangezappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,127,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="orangeburndamage" strength="40" />
+                <Affliction identifier="orangeburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Yellow Zapper Round" identifier="yellowzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Yellow Zapper Round" identifier="yellowzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="yellowzappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="yellowburndamage" strength="40" />
+                <Affliction identifier="yellowburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Green Zapper Round" identifier="greenzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Green Zapper Round" identifier="greenzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="greenzappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,255,0,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="greenburndamage" strength="40" />
+                <Affliction identifier="greenburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Blue Zapper Round" identifier="bluezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Blue Zapper Round" identifier="bluezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5"
+          tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="bluezappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,255,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="blueburndamage" strength="40" />
+                <Affliction identifier="blueburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Indigo Zapper Round" identifier="indigozapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Indigo Zapper Round" identifier="indigozapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="indigozappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,0,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="indigoburndamage" strength="40" />
+                <Affliction identifier="indigoburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Violet Zapper Round" identifier="violetzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="Violet Zapper Round" identifier="violetzapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="violetzappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,0,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="violetburndamage" strength="40" />
+                <Affliction identifier="violetburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="White Zapper Round" identifier="whitezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
+    <Item name="White Zapper Round" identifier="whitezapperround" category="Equipment" maxstacksize="1" interactthroughwalls="true" cargocontaineridentifier="metalcrate"
+          Scale="0.5" tags="smallitem,zapperround" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="whitezappercore" minamount="1" maxamount="1" spawnprobability="1"/>
-        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5" />
-        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5" />
-        <Body width="29" height="10" density="40" />
-        <Pickable slots="Any" msg="ItemMsgPickUpSelect" />
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,384,64,64" origin="0.5,0.5"/>
+        <Sprite texture="weapons_new.png" sourcerect="191,290,21,7" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
         <Projectile characterusable="false" hitscan="true" removeonhit="true">
             <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,255,175" scalemultiplier="1,0.6"/>
             <Attack structuredamage="1" targetforce="10" itemdamage="20" severlimbsprobability="0.1">
-                <Affliction identifier="whiteburndamage" strength="40" />
+                <Affliction identifier="whiteburndamage" strength="40"/>
             </Attack>
             <StatusEffect type="OnImpact" target="UseTarget">
-                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+                <ParticleEmitter particle="impactfirearm" particleamount="1" velocitymin="0" velocitymax="0"/>
             </StatusEffect>
             <StatusEffect type="OnImpact" target="UseTarget">
                 <Conditional entitytype="eq Structure"/>
                 <Conditional hastag="eq door"/>
-                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+                <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5"
+                                 scalemax="1"/>
             </StatusEffect>
         </Projectile>
-        <Upgrade gameversion="0.10.0.0" scale="0.5" />
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
 </Items>

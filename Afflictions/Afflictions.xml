@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Afflictions>
 
-  <Burn
-          name="red zapp"
-          identifier="redburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
+    <Burn
+            name="red zapp"
+            identifier="redburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
 
-  <Burn
-          name="orange zapp"
-          identifier="orangeburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="yellow zapp"
-          identifier="yellowburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="green zapp"
-          identifier="greenburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="blue zapp"
-          identifier="blueburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="indigo zapp"
-          identifier="indigoburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="violet zapp"
-          identifier="violetburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
-  <Burn
-          name="white zapp"
-          identifier="whiteburndamage"
-          translationoverride="burn"
-          description=""
-          type="damage"
-          causeofdeathdescription=""
-          selfcauseofdeathdescription=""
-          limbspecific="true"
-          maxstrength="100"
-          burnoverlayalpha="1">
-    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
-            minvitalitydecrease="0"
-            maxvitalitydecrease="1"/>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
-  </Burn>
+    <Burn
+            name="orange zapp"
+            identifier="orangeburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="yellow zapp"
+            identifier="yellowburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="green zapp"
+            identifier="greenburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="blue zapp"
+            identifier="blueburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="indigo zapp"
+            identifier="indigoburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="violet zapp"
+            identifier="violetburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
+    <Burn
+            name="white zapp"
+            identifier="whiteburndamage"
+            translationoverride="burn"
+            description=""
+            type="damage"
+            causeofdeathdescription=""
+            selfcauseofdeathdescription=""
+            limbspecific="true"
+            maxstrength="100"
+            burnoverlayalpha="1">
+        <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true"
+                minvitalitydecrease="0"
+                maxvitalitydecrease="1"/>
+        <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="768,640,128,128" color="195,104,60,255" origin="0,0"/>
+    </Burn>
 </Afflictions>
