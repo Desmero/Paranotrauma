@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <Items>
+        <Item name="" identifier="flare" category="Equipment" maxstacksize="8" cargocontaineridentifier="metalcrate" Scale="0.5" tags="smallitem,light,provocative"
+              impactsoundtag="impact_soft" isshootable="true">
+            <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="1"/>
+            <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.5"/>
+            <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+            <Price baseprice="37">
+                <Price locationtype="outpost" multiplier="1" minavailable="6"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="10"/>
+                <Price locationtype="research" multiplier="1.25" minavailable="6"/>
+                <Price locationtype="military" multiplier="1.25" minavailable="8"/>
+                <Price locationtype="mine" multiplier="1" minavailable="10"/>
+            </Price>
+            <Deconstruct time="10">
+                <Item identifier="flashpowder" mincondition="0.9" outcondition="0.25"/>
+                <Item identifier="plastic" mincondition="0.9" outcondition="0.25"/>
+            </Deconstruct>
+            <Fabricate suitablefabricators="fabricator" requiredtime="10" amount="4">
+                <RequiredItem identifier="flashpowder"/>
+                <RequiredItem identifier="plastic"/>
+            </Fabricate>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,0,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="227,205,54,18" depth="0.55" origin="0.5,0.5"/>
+            <Body width="50" height="15" density="12"/>
+            <Throwable slots="Any,RightHand,LeftHand" holdpos="0,0" handle1="0,0" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect"/>
+            <LightComponent LightColor="255,0.0,0.0,255" Flicker="0.5" range="600" IsOn="false">
+                <StatusEffect type="OnUse" targettype="This" IsOn="true">
+                    <Conditional IsOn="eq False" targetitemcomponent="LightComponent"/>
+                    <sound file="Content/Items/Tools/FlareIgnite.ogg" range="800.0"/>
+                </StatusEffect>
+                <StatusEffect type="OnActive" targettype="This" Condition="-0.25"/>
+                <StatusEffect type="OnActive" targettype="This">
+                    <Conditional PhysicsBodyActive="eq true"/>
+                    <ParticleEmitter particle="flare" emitinterval="2.1" particleamount="10" particlespersecond="60" anglemin="70" anglemax="100" velocitymin="100"
+                                     velocitymax="200"/>
+                    <ParticleEmitter particle="FlareBubbles" particlespersecond="40" anglemin="70" anglemax="100" velocitymin="100" velocitymax="200" scalemin="0.8"
+                                     scalemax="1.2"/>
+                </StatusEffect>
+                <StatusEffect type="OnBroken" targettype="This" IsOn="false"/>
+                <sound file="Content/Items/Tools/FlareLoop.ogg" type="OnActive" range="800.0" loop="true"/>
+            </LightComponent>
+            <AiTarget sightrange="4000"/>
+            <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+        </Item>
+
+        <Item name="" identifier="sprayer" category="Equipment" Tags="smallitem,tool" cargocontaineridentifier="metalcrate" description="" Scale="0.5"
+              impactsoundtag="impact_metal_light">
+            <PreferredContainer primary="engcab" minamount="1" maxamount="4" spawnprobability="1"/>
+            <PreferredContainer primary="supplycab" minamount="1" maxamount="1" spawnprobability="0.125"/>
+            <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+            <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <Price baseprice="120">
+                <Price locationtype="outpost" multiplier="1" minavailable="3"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="5"/>
+                <Price locationtype="research" multiplier="1.25" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.25" minavailable="2"/>
+                <Price locationtype="mine" multiplier="0.9" minavailable="10"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="128,256,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="373,165,124,73" depth="0.55" origin="0.5,0.5"/>
+            <!-- the item takes 25 seconds to break down in a deconstructor and turns into steel and plastic -->
+            <Deconstruct time="25">
+                <Item identifier="steel"/>
+                <Item identifier="plastic"/>
+                <Item identifier="plastic"/>
+            </Deconstruct>
+            <Fabricate suitablefabricators="fabricator" requiredtime="35">
+                <RequiredSkill identifier="mechanical" level="30"/>
+                <RequiredItem identifier="steel"/>
+                <RequiredItem identifier="plastic"/>
+                <RequiredItem identifier="plastic"/>
+            </Fabricate>
+            <!-- physics body -->
+            <Body width="150" height="60" density="40"/>
+            <!-- the character will hold the item 50 pixels in front of him, with his hands at the handle1 and handle2 positions -->
+            <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+            <Sprayer barrelpos="34,8" spread="0" unskilledspread="0" drawhudwhenequipped="true" crosshairscale="0.1" spraystrength="6.0" range="300">
+                <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256"/>
+                <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256"/>
+                <ParticleEmitter particle="spray" velocitymin="500.0" velocitymax="650.0" particlespersecond="100"/>
+                <RequiredItems items="ethanol, paint" type="Contained" msg="ItemMsgPaintOrCleaningAgentRequired"/>
+                <sound file="Content/Items/Tools/Sprayer.ogg" type="OnUse" range="500.0" loop="true"/>
+                <!--When containing paint, reduce its condition by 1.5 when used-->
+                <StatusEffect type="OnUse" target="Contained" Condition="-1.5">
+                    <RequiredItem items="paint" type="Contained"/>
+                </StatusEffect>
+                <!--Reduce ethanol condition slower than paint-->
+                <StatusEffect type="OnUse" target="Contained" Condition="-0.75">
+                    <RequiredItem items="ethanol" type="Contained"/>
+                </StatusEffect>
+                <PaintColors>
+                    <PaintColor paintitem="ethanol" color="200,200,200,0"/>
+                    <PaintColor paintitem="redpaint" color="128,0,0,180"/>
+                    <PaintColor paintitem="orangepaint" color="128,64,0,180"/>
+                    <PaintColor paintitem="yellowpaint" color="128,128,0,180"/>
+                    <PaintColor paintitem="greenpaint" color="0,128,0,180"/>
+                    <PaintColor paintitem="bluepaint" color="0,128,128,180"/>
+                    <PaintColor paintitem="indigopaint" color="0,0,128,180"/>
+                    <PaintColor paintitem="violetpaint" color="64,0,128,180"/>
+                    <PaintColor paintitem="blackpaint" color="0,0,0,180"/>
+                    <PaintColor paintitem="whitepaint" color="128,128,128,180"/>
+                </PaintColors>
+            </Sprayer>
+            <!-- one welding fuel or oxygen tank can be contained inside the welding tool -->
+            <ItemContainer capacity="1" maxstacksize="1" hideitems="false" itempos="8,-35" containedspritedepth="0.56" containedstateindicatorstyle="tank">
+                <Containable items="ethanol, paint"/>
+            </ItemContainer>
+            <aitarget sightrange="2000" soundrange="500" fadeouttime="3"/>
+        </Item>
+
+        <redpaint name="" identifier="redpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint"
+                  spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+            <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25"/>
+            <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075"/>
+            <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <Price baseprice="65">
+                <Price locationtype="outpost" multiplier="1.1" minavailable="2"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="2"/>
+                <Price locationtype="research" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="mine" multiplier="1.2" minavailable="2"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
+            <Body width="25" height="55" density="20"/>
+            <Fabricate suitablefabricators="fabricator" requiredtime="30">
+                <RequiredSkill identifier="mechanical" level="20"/>
+                <RequiredItem identifier="ethanol"/>
+                <RequiredItem identifier="rubber"/>
+                <RequiredItem identifier="alienblood"/>
+            </Fabricate>
+            <Deconstruct time="20">
+                <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
+                <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
+                <Item identifier="alienblood" copycondition="true" mincondition="0.1"/>
+            </Deconstruct>
+            <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"/>
+            <Throwable characterusable="true" canBeCombined="true" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+                    <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter_red" decalsize="1.0"/>
+                    <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2"
+                                     colormultiplier="128,0,0,255"/>
+                </StatusEffect>
+                <StatusEffect type="OnFire" target="This" Condition="-50.0"/>
+                <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+                    <Remove/>
+                </StatusEffect>
+            </Throwable>
+        </redpaint>
+        <greenpaint name="" identifier="greenpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint"
+                    spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+            <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25"/>
+            <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075"/>
+            <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <Price baseprice="65">
+                <Price locationtype="outpost" multiplier="1.1" minavailable="2"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="2"/>
+                <Price locationtype="research" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="mine" multiplier="1.2" minavailable="2"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
+            <Body width="25" height="55" density="20"/>
+            <Fabricate suitablefabricators="fabricator" requiredtime="30">
+                <RequiredSkill identifier="mechanical" level="20"/>
+                <RequiredItem identifier="ethanol"/>
+                <RequiredItem identifier="rubber"/>
+                <RequiredItem identifier="copper"/>
+            </Fabricate>
+            <Deconstruct time="20">
+                <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
+                <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
+                <Item identifier="copper" copycondition="true" mincondition="0.1"/>
+            </Deconstruct>
+            <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"/>
+            <Throwable characterusable="true" canBeCombined="true" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+                    <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter_green" decalsize="1.0"/>
+                    <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2"
+                                     colormultiplier="0,128,0,255"/>
+                </StatusEffect>
+                <StatusEffect type="OnFire" target="This" Condition="-50.0"/>
+                <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+                    <Remove/>
+                </StatusEffect>
+            </Throwable>
+        </greenpaint>
+        <bluepaint name="" identifier="bluepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint"
+                   spritecolor="0,128,128,255" InventoryIconColor="0,255,255,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+            <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25"/>
+            <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075"/>
+            <Price baseprice="65">
+                <Price locationtype="outpost" multiplier="1.1" minavailable="2"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="2"/>
+                <Price locationtype="research" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="mine" multiplier="1.2" minavailable="2"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
+            <Body width="25" height="55" density="20"/>
+            <Fabricate suitablefabricators="fabricator" requiredtime="30">
+                <RequiredSkill identifier="mechanical" level="20"/>
+                <RequiredItem identifier="ethanol"/>
+                <RequiredItem identifier="rubber"/>
+                <RequiredItem identifier="zinc"/>
+            </Fabricate>
+            <Deconstruct time="20">
+                <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
+                <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
+                <Item identifier="zinc" copycondition="true" mincondition="0.1"/>
+            </Deconstruct>
+            <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"/>
+            <Throwable characterusable="true" canBeCombined="true" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+                    <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter_blue" decalsize="1.0"/>
+                    <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2"
+                                     colormultiplier="0,0,128,255"/>
+                </StatusEffect>
+                <StatusEffect type="OnFire" target="This" Condition="-50.0"/>
+                <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+                    <Remove/>
+                </StatusEffect>
+            </Throwable>
+        </bluepaint>
+        <blackpaint name="" identifier="blackpaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint"
+                    spritecolor="20,20,20,255" InventoryIconColor="20,20,20,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+            <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25"/>
+            <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075"/>
+            <Price baseprice="65">
+                <Price locationtype="outpost" multiplier="1.1" minavailable="2"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="2"/>
+                <Price locationtype="research" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="mine" multiplier="1.2" minavailable="2"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
+            <Body width="25" height="55" density="20"/>
+            <Fabricate suitablefabricators="fabricator" requiredtime="30">
+                <RequiredSkill identifier="mechanical" level="20"/>
+                <RequiredItem identifier="ethanol"/>
+                <RequiredItem identifier="rubber"/>
+                <RequiredItem identifier="zinc"/>
+            </Fabricate>
+            <Deconstruct time="20">
+                <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
+                <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
+                <Item identifier="zinc" copycondition="true" mincondition="0.1"/>
+            </Deconstruct>
+            <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"/>
+            <Throwable characterusable="true" canBeCombined="true" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+                    <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter_black" decalsize="1.0"/>
+                    <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2"
+                                     colormultiplier="20,20,20,255"/>
+                </StatusEffect>
+                <StatusEffect type="OnFire" target="This" Condition="-50.0"/>
+                <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+                    <Remove/>
+                </StatusEffect>
+            </Throwable>
+        </blackpaint>
+        <whitepaint name="" identifier="whitepaint" category="Material" maxstacksize="8" cargocontaineridentifier="chemicalcrate" description="" Tags="smallitem,paint"
+                    spritecolor="128,128,128,255" InventoryIconColor="128,128,128,255" scale="0.5" impactsoundtag="impact_metal_light" impacttolerance="6">
+            <PreferredContainer primary="storagecab" minamount="1" maxamount="2" spawnprobability="0.25"/>
+            <PreferredContainer primary="engcab" minamount="0" maxamount="1" spawnprobability="0.25"/>
+            <PreferredContainer secondary="wreckstoragecab" minamount="1" maxamount="2" spawnprobability="0.075"/>
+            <Price baseprice="65">
+                <Price locationtype="outpost" multiplier="1.1" minavailable="2"/>
+                <Price locationtype="city" multiplier="0.9" minavailable="2"/>
+                <Price locationtype="research" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="military" multiplier="1.2" minavailable="2"/>
+                <Price locationtype="mine" multiplier="1.2" minavailable="2"/>
+            </Price>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
+            <Body width="25" height="55" density="20"/>
+            <Fabricate suitablefabricators="fabricator" requiredtime="30">
+                <RequiredSkill identifier="mechanical" level="20"/>
+                <RequiredItem identifier="ethanol"/>
+                <RequiredItem identifier="rubber"/>
+                <RequiredItem identifier="zinc"/>
+            </Fabricate>
+            <Deconstruct time="20">
+                <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
+                <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
+                <Item identifier="zinc" copycondition="true" mincondition="0.1"/>
+            </Deconstruct>
+            <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect"/>
+            <Throwable characterusable="true" canBeCombined="true" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+                <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+                    <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter_white" decalsize="1.0"/>
+                    <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2"/>
+                </StatusEffect>
+                <StatusEffect type="OnFire" target="This" Condition="-50.0"/>
+                <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+                    <Remove/>
+                </StatusEffect>
+            </Throwable>
+        </whitepaint>
+    </Items>
+</Override>
