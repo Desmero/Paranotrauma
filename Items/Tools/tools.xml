@@ -15,12 +15,7 @@
         <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="256,320,64,64" origin="0.5,0.5"/>
         <Sprite texture="Content/Items/Tools/tools.png" sourcerect="379,78,27,58" depth="0.6" origin="0.5,0.5"/>
         <Body width="25" height="55" density="20"/>
-        <Fabricate suitablefabricators="fabricator" requiredtime="30">
-            <RequiredSkill identifier="mechanical" level="20"/>
-            <RequiredItem identifier="ethanol"/>
-            <RequiredItem identifier="rubber"/>
-            <RequiredItem identifier="zinc"/>
-        </Fabricate>
+c
         <Deconstruct time="20">
             <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
             <Item identifier="rubber" copycondition="true" mincondition="0.1"/>
@@ -59,6 +54,7 @@
             <RequiredItem identifier="ethanol"/>
             <RequiredItem identifier="rubber"/>
             <RequiredItem identifier="zinc"/>
+            <RequiredItem identifier="yellowticket"/>
         </Fabricate>
         <Deconstruct time="20">
             <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
@@ -98,6 +94,7 @@
             <RequiredItem identifier="ethanol"/>
             <RequiredItem identifier="rubber"/>
             <RequiredItem identifier="zinc"/>
+            <RequiredItem identifier="indigoticket"/>
         </Fabricate>
         <Deconstruct time="20">
             <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
@@ -137,6 +134,7 @@
             <RequiredItem identifier="ethanol"/>
             <RequiredItem identifier="rubber"/>
             <RequiredItem identifier="zinc"/>
+            <RequiredItem identifier="violetticket"/>
         </Fabricate>
         <Deconstruct time="20">
             <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>

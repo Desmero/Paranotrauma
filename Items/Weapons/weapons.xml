@@ -81,6 +81,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="redzapper"/>
+            <RequiredItem identifier="orangepaint"/>
+            <RequiredItem identifier="orangeticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -128,6 +133,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="orangezapper"/>
+            <RequiredItem identifier="yellowpaint"/>
+            <RequiredItem identifier="yellowticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -175,6 +185,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="yellowzapper"/>
+            <RequiredItem identifier="greenpaint"/>
+            <RequiredItem identifier="greenticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -222,6 +237,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="greenzapper"/>
+            <RequiredItem identifier="bluepaint"/>
+            <RequiredItem identifier="blueticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -269,6 +289,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="bluezapper"/>
+            <RequiredItem identifier="indigopaint"/>
+            <RequiredItem identifier="indigoticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -316,6 +341,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="indigozapper"/>
+            <RequiredItem identifier="violetpaint"/>
+            <RequiredItem identifier="violetticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -363,6 +393,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="3"/>
             <Price locationtype="mine" multiplier="1.25" sold="false"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="violetzapper"/>
+            <RequiredItem identifier="whitepaint"/>
+            <RequiredItem identifier="whiteticket"/>
+        </Fabricate>
         <Deconstruct time="10">
             <Item identifier="steel"/>
             <Item identifier="plastic"/>
@@ -429,6 +464,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="redzappercore"/>
+            <RequiredItem identifier="orangepaint"/>
+            <RequiredItem identifier="orangeticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="32,0,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="32,0,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -458,6 +498,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="orangezappercore"/>
+            <RequiredItem identifier="yellowpaint"/>
+            <RequiredItem identifier="yellowticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="64,0,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="64,0,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -487,6 +532,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="yellowzappercore"/>
+            <RequiredItem identifier="greenpaint"/>
+            <RequiredItem identifier="greenticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="0,32,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="0,32,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -516,6 +566,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="greenzappercore"/>
+            <RequiredItem identifier="bluepaint"/>
+            <RequiredItem identifier="blueticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="32,32,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="32,32,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -545,6 +600,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="bluezappercore"/>
+            <RequiredItem identifier="indigopaint"/>
+            <RequiredItem identifier="indigoticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="64,32,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="64,32,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -574,6 +634,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="indigozappercore"/>
+            <RequiredItem identifier="violetpaint"/>
+            <RequiredItem identifier="violetticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="0,64,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="0,64,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -603,6 +668,11 @@
             <Price locationtype="military" multiplier="0.9" minavailable="24"/>
             <Price locationtype="mine" multiplier="1.25" minavailable="12"/>
         </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="violetzappercore"/>
+            <RequiredItem identifier="whitepaint"/>
+            <RequiredItem identifier="whiteticket"/>
+        </Fabricate>
         <InventoryIcon texture="zapperCore.png" sourcerect="32,64,32,32" origin="0.5,0.5"/>
         <Sprite texture="zapperCore.png" sourcerect="32,64,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>

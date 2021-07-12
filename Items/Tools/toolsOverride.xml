@@ -130,6 +130,7 @@
                 <RequiredItem identifier="ethanol"/>
                 <RequiredItem identifier="rubber"/>
                 <RequiredItem identifier="alienblood"/>
+                <RequiredItem identifier="redticket"/>
             </Fabricate>
             <Deconstruct time="20">
                 <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
@@ -169,6 +170,7 @@
                 <RequiredItem identifier="ethanol"/>
                 <RequiredItem identifier="rubber"/>
                 <RequiredItem identifier="copper"/>
+                <RequiredItem identifier="greenticket"/>
             </Fabricate>
             <Deconstruct time="20">
                 <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
@@ -208,6 +210,7 @@
                 <RequiredItem identifier="ethanol"/>
                 <RequiredItem identifier="rubber"/>
                 <RequiredItem identifier="zinc"/>
+                <RequiredItem identifier="blueticket"/>
             </Fabricate>
             <Deconstruct time="20">
                 <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>
@@ -286,6 +289,7 @@
                 <RequiredItem identifier="ethanol"/>
                 <RequiredItem identifier="rubber"/>
                 <RequiredItem identifier="zinc"/>
+                <RequiredItem identifier="whiteticket"/>
             </Fabricate>
             <Deconstruct time="20">
                 <Item identifier="ethanol" copycondition="true" mincondition="0.1"/>

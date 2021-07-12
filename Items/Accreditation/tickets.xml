@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item name="Red Badge" identifier="redbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="redticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="redticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Red Ticket" identifier="redticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Orange Badge" identifier="orangebadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,64,0,255" InventoryIconColor="255,128,0,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="orangeticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="orangeticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Orange Ticket" identifier="orangeticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="128,64,0,255" InventoryIconColor="255,128,0,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Yellow Badge" identifier="yellowbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,128,0,255" InventoryIconColor="255,255,0,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="yellowticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="yellowticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Yellow Ticket" identifier="yellowticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="128,128,0,255" InventoryIconColor="255,255,0,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Green Badge" identifier="greenbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="greenticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="greenticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Green Ticket" identifier="greenticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="0,128,0,255" InventoryIconColor="0,255,0,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Blue Badge" identifier="bluebadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="0,128,128,255" InventoryIconColor="0,255,255,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="blueticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="blueticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Blue Ticket" identifier="blueticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="0,128,128,255" InventoryIconColor="0,255,255,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Indigo Badge" identifier="indigobadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="indigoticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="indigoticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Indigo Ticket" identifier="indigoticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="0,0,128,255" InventoryIconColor="0,0,255,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Violet Badge" identifier="violetbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,0,128,255" InventoryIconColor="255,0,255,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="violetticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="violetticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="Violet Ticket" identifier="violetticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="64,0,128,255" InventoryIconColor="128,0,255,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="White Badge" identifier="whitebadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="64,128,128,255" InventoryIconColor="128,255,255,255">
+        <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Holdable slots="Any,RightHand,LeftHand" controlpose="true" aimpos="50,0" handle1="-39,-30" handle2="-8,-25" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="1" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable identifiers="whiteticket"/>
+        </ItemContainer>
+        <RangedWeapon reload="0.1">
+            <StatusEffect type="OnUse" target="This">
+                <SpawnItem identifiers="whiteticket" spawnposition="ThisInventory"/>
+            </StatusEffect>
+        </RangedWeapon>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+    <Item name="White Ticket" identifier="whiteticket" category="Equipment" maxstacksize="8" Scale="0.5" tags="smallitem,ticket" spritecolor="128,128,128,255" InventoryIconColor="255,255,255,255">
+        <InventoryIcon texture="ticket.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="ticket.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
+</Items>
