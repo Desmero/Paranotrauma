@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
+    <Item name="Badge bag" identifier="badgebag" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem">
+        <InventoryIcon texture="bag.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
+        <Sprite texture="bag.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
+        <Body width="29" height="10" density="40"/>
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer autofill="False" hideitems="false" capacity="8" maxstacksize="8" removecontaineditemsondeconstruct="true" drawinventory="true" canbeselected="true"
+                       ShowContainedStateIndicator="true">
+            <Containable items="badge"/>
+            <Containable items="ticket"/>
+        </ItemContainer>
+        <Upgrade gameversion="0.10.0.0" scale="0.5"/>
+    </Item>
+
     <Item name="Red Badge" identifier="redbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,0,0,255" InventoryIconColor="255,0,0,255">
         <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
         <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
@@ -150,7 +163,7 @@
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="Violet Badge" identifier="violetbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,0,128,255" InventoryIconColor="255,0,255,255">
+    <Item name="Violet Badge" identifier="violetbadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="64,0,128,255" InventoryIconColor="128,0,255,255">
         <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
         <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
@@ -175,7 +188,7 @@
         <Upgrade gameversion="0.10.0.0" scale="0.5"/>
     </Item>
 
-    <Item name="White Badge" identifier="whitebadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="64,128,128,255" InventoryIconColor="128,255,255,255">
+    <Item name="White Badge" identifier="whitebadge" category="Equipment" maxstacksize="1" Scale="0.5" tags="smallitem,badge" CharacterUsable="true" spritecolor="128,128,128,255" InventoryIconColor="255,255,255,255">
         <InventoryIcon texture="badge.png" sourcerect="0,0,32,32" origin="0.5,0.5"/>
         <Sprite texture="badge.png" sourcerect="0,0,32,32" depth="0.55" origin="0.5,0.5"/>
         <Body width="29" height="10" density="40"/>
