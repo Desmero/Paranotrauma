@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item name="Loyal Red suit" identifier="loyaltyredsuit" aliases="loyaltyredsuit" category="Equipment" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate"
+          description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="commonblacksuit"/>
+            <RequiredItem identifier="redpaint"/>
+            <RequiredItem identifier="redticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="red Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="128,21,128,107" origin="0.5,0.5"/>
+        <Sprite name="red Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="208,0,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="red Uniform 1 Torso" texture="red_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Left Upper Arm" texture="red_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Right Upper Arm" texture="red_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Left Lower Arm" texture="red_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Right Lower Arm" texture="red_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Waist" texture="red_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Right Thigh" texture="red_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Left Thigh" texture="red_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Right Leg" texture="red_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Left Leg" texture="red_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Right Shoe" texture="red_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="red Uniform 1 Left Shoe" texture="red_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Orange suit" identifier="loyaltyorangesuit" aliases="loyaltyorangesuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltyredsuit"/>
+            <RequiredItem identifier="orangepaint"/>
+            <RequiredItem identifier="orangeticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="orange Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="256,21,128,107" origin="0.5,0.5"/>
+        <Sprite name="orange Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="416,0,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="orange Uniform 1 Torso" texture="orange_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Left Upper Arm" texture="orange_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Right Upper Arm" texture="orange_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Left Lower Arm" texture="orange_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Right Lower Arm" texture="orange_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Waist" texture="orange_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Right Thigh" texture="orange_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Left Thigh" texture="orange_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Right Leg" texture="orange_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Left Leg" texture="orange_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Right Shoe" texture="orange_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="orange Uniform 1 Left Shoe" texture="orange_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Yellow suit" identifier="loyaltyyellowsuit" aliases="loyaltyyellowsuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltyorangesuit"/>
+            <RequiredItem identifier="yellowpaint"/>
+            <RequiredItem identifier="yellowticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="yellow Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="0,150,128,107" origin="0.5,0.5"/>
+        <Sprite name="yellow Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="0,71,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="yellow Uniform 1 Torso" texture="yellow_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Left Upper Arm" texture="yellow_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Right Upper Arm" texture="yellow_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Left Lower Arm" texture="yellow_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Right Lower Arm" texture="yellow_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Waist" texture="yellow_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Right Thigh" texture="yellow_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Left Thigh" texture="yellow_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Right Leg" texture="yellow_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Left Leg" texture="yellow_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Right Shoe" texture="yellow_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="yellow Uniform 1 Left Shoe" texture="yellow_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="orangeburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Green suit" identifier="loyaltygreensuit" aliases="loyaltygreensuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltyyellowsuit"/>
+            <RequiredItem identifier="greenpaint"/>
+            <RequiredItem identifier="greenticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="green Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="128,150,128,107" origin="0.5,0.5"/>
+        <Sprite name="green Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="208,71,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="green Uniform 1 Torso" texture="green_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Left Upper Arm" texture="green_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Right Upper Arm" texture="green_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Left Lower Arm" texture="green_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Right Lower Arm" texture="green_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Waist" texture="green_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Right Thigh" texture="green_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Left Thigh" texture="green_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Right Leg" texture="green_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Left Leg" texture="green_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Right Shoe" texture="green_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="green Uniform 1 Left Shoe" texture="green_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="orangeburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="yellowburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Blue suit" identifier="loyaltybluesuit" aliases="loyaltybluesuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltygreensuit"/>
+            <RequiredItem identifier="bluepaint"/>
+            <RequiredItem identifier="blueticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="blue Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="256,150,128,107" origin="0.5,0.5"/>
+        <Sprite name="blue Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="416,71,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="blue Uniform 1 Torso" texture="blue_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Left Upper Arm" texture="blue_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Right Upper Arm" texture="blue_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Left Lower Arm" texture="blue_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Right Lower Arm" texture="blue_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Waist" texture="blue_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Right Thigh" texture="blue_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Left Thigh" texture="blue_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Right Leg" texture="blue_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Left Leg" texture="blue_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Right Shoe" texture="blue_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="blue Uniform 1 Left Shoe" texture="blue_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="orangeburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="yellowburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="greenburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Indigo suit" identifier="loyaltyindigosuit" aliases="loyaltyindigosuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltybluesuit"/>
+            <RequiredItem identifier="indigopaint"/>
+            <RequiredItem identifier="indigoticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="indigo Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="0,277,128,107" origin="0.5,0.5"/>
+        <Sprite name="indigo Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="0,142,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="indigo Uniform 1 Torso" texture="indigo_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Left Upper Arm" texture="indigo_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Right Upper Arm" texture="indigo_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Left Lower Arm" texture="indigo_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Right Lower Arm" texture="indigo_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Waist" texture="indigo_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Right Thigh" texture="indigo_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Left Thigh" texture="indigo_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Right Leg" texture="indigo_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Left Leg" texture="indigo_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Right Shoe" texture="indigo_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="indigo Uniform 1 Left Shoe" texture="indigo_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="orangeburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="yellowburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="greenburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blueburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+    <Item name="Loyal Violet suit" identifier="loyaltyvioletsuit" aliases="loyaltyvioletsuit" category="Equipment" tags="smallitem,clothing" fireproof="true"
+          cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+        <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.125"/>
+        <Price baseprice="150">
+            <Price locationtype="outpost" multiplier="1" minavailable="1"/>
+            <Price locationtype="city" multiplier="0.9" minavailable="1"/>
+            <Price locationtype="research" multiplier="1" minavailable="1"/>
+            <Price locationtype="military" multiplier="1" minavailable="1"/>
+            <Price locationtype="mine" multiplier="1" minavailable="1"/>
+        </Price>
+        <Fabricate suitablefabricators="fabricator" requiredtime="30">
+            <RequiredItem identifier="loyaltyindigosuit"/>
+            <RequiredItem identifier="violetpaint"/>
+            <RequiredItem identifier="violetticket"/>
+        </Fabricate>
+        <Deconstruct time="10"/>
+        <InventoryIcon name="violet Uniform 1 Icon" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/OutfitIcons.png" sourcerect="128,277,128,107" origin="0.5,0.5"/>
+        <Sprite name="violet Uniform 1" texture="Mods/Paranotrauma/Items/Jobgear/Loyalty/MiscJobGear.png" sourcerect="208,142,208,71" depth="0.6" origin="0.5,0.5"/>
+        <Body width="180" height="50" density="30" friction="0.8" restitution="0.01"/>
+        <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
+            <sprite name="violet Uniform 1 Torso" texture="violet_torso_[GENDER]_1.png" limb="Torso" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Left Upper Arm" texture="violet_torso_[GENDER]_1.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Right Upper Arm" texture="violet_torso_[GENDER]_1.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Left Lower Arm" texture="violet_torso_[GENDER]_1.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Right Lower Arm" texture="violet_torso_[GENDER]_1.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Waist" texture="violet_legs_[GENDER]_1.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Right Thigh" texture="violet_legs_[GENDER]_1.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Left Thigh" texture="violet_legs_[GENDER]_1.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Right Leg" texture="violet_legs_[GENDER]_1.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Left Leg" texture="violet_legs_[GENDER]_1.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Right Shoe" texture="violet_legs_[GENDER]_1.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <sprite name="violet Uniform 1 Left Shoe" texture="violet_legs_[GENDER]_1.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true"
+                    inheritsourcerect="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.9" damagesound="LimbArmor"
+                            deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="redburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="orangeburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="yellowburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="greenburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blueburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+            <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="indigoburndamage" damagemultiplier="0" damagesound="LimbArmor" deflectprojectiles="true"/>
+        </Wearable>
+    </Item>
+</Items>

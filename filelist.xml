@@ -6,6 +6,12 @@
     <Item file="Mods/Paranotrauma/Items/Accreditation/tickets.xml"/>
     <Item file="Mods/Paranotrauma/Items/Drinks/BouncyBubbleBeverage.xml"/>
     <Item file="Mods/Paranotrauma/Items/Jobgear/Common/common_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Communication/communication_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Happiness/happiness_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Hygiene/hygiene_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Leader/leader_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Loyalty/loyalty_gear.xml"/>
+    <Item file="Mods/Paranotrauma/Items/Jobgear/Material/material_gear.xml"/>
     <Item file="Mods/Paranotrauma/Items/Music/Music.xml"/>
     <Item file="Mods/Paranotrauma/Items/Tools/toolsOverride.xml"/>
     <Item file="Mods/Paranotrauma/Items/Tools/tools.xml"/>

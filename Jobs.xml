@@ -22,7 +22,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="leaderredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -37,7 +37,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="leaderorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -52,7 +52,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="leaderyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -67,7 +67,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="leadergreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -82,7 +82,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="leaderbluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -132,7 +132,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="materialredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -143,7 +143,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="materialorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -154,7 +154,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="materialyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -165,7 +165,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="materialgreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -176,7 +176,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="materialbluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -227,7 +227,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -238,7 +238,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -249,7 +249,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -260,7 +260,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="hygienegreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -271,7 +271,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="hygienebluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -322,7 +322,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="loyaltyredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -333,7 +333,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="loyaltyorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -344,7 +344,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="loyaltyyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -355,7 +355,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="loyaltygreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -366,7 +366,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="loyaltybluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -412,7 +412,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -423,7 +423,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -434,7 +434,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="hygieneyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -445,7 +445,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="hygienegreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -456,7 +456,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="hygienebluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -500,7 +500,7 @@
             </Skills>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonredsuit1" equip="true" outfit="true"/>
+                <Item identifier="assistantredsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -511,7 +511,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonorangesuit1" equip="true" outfit="true"/>
+                <Item identifier="assistantorangesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -522,7 +522,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonyellowsuit1" equip="true" outfit="true"/>
+                <Item identifier="assistantyellowsuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -533,7 +533,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commongreensuit1" equip="true" outfit="true"/>
+                <Item identifier="assistantgreensuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
@@ -544,7 +544,7 @@
             </ItemSet>
             <ItemSet>
                 <Item identifier="idcard" equip="true" showpreview="false"/>
-                <Item identifier="commonbluesuit1" equip="true" outfit="true"/>
+                <Item identifier="assistantbluesuit" equip="true" outfit="true"/>
                 <Item identifier="headset" equip="true" showpreview="false">
                     <Item identifier="batterycell" showpreview="false"/>
                 </Item>
