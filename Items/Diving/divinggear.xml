@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <Item name="Red diving suit" identifier="reddivingsuit" category="Equipment" tags="diving,deepdiving,provocative,respawnsuit" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="430" minleveldifficulty="25">
-      <Price locationtype="outpost" multiplier="0.9" minavailable="1"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="2"/>
-      <Price locationtype="research" multiplier="1" minavailable="1"/>
-      <Price locationtype="military" multiplier="1" minavailable="2"/>
-      <Price locationtype="mine" multiplier="1.25" minavailable="2"/>
+    <Price baseprice="200" minleveldifficulty="25">
+      <Price locationtype="outpost" multiplier="0.9" minavailable="2"/>
+      <Price locationtype="city" multiplier="0.85" minavailable="5"/>
+      <Price locationtype="research" multiplier="1" minavailable="3"/>
+      <Price locationtype="military" multiplier="1" minavailable="4"/>
+      <Price locationtype="mine" multiplier="1.25" minavailable="5"/>
     </Price>
     <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
     <Deconstruct time="30">
@@ -108,14 +108,14 @@
     <aitarget maxsightrange="1500" />
   </Item>
   <Item name="Orange diving suit" identifier="orangedivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="430" minleveldifficulty="25">
+    <Price baseprice="300" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="0.9" minavailable="1"/>
       <Price locationtype="city" multiplier="0.85" minavailable="2"/>
       <Price locationtype="research" multiplier="1" minavailable="1"/>
       <Price locationtype="military" multiplier="1" minavailable="2"/>
       <Price locationtype="mine" multiplier="1.25" minavailable="2"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.4"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="rubber" />
@@ -216,14 +216,14 @@
     <aitarget maxsightrange="1500" />
   </Item>
   <Item name="Yellow diving suit" identifier="yellowdivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="250">
-      <Price locationtype="outpost" multiplier="0.9" minavailable="2"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="4"/>
-      <Price locationtype="research" multiplier="1" minavailable="3"/>
-      <Price locationtype="military" multiplier="1" minavailable="3"/>
-      <Price locationtype="mine" multiplier="1.25" minavailable="5"/>
+    <Price baseprice="400">
+      <Price locationtype="outpost" multiplier="0.9" sold="false"/>
+      <Price locationtype="city" multiplier="0.85" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" minavailable="1"/>
+      <Price locationtype="mine" multiplier="1.25" sold="false"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.2"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
@@ -332,14 +332,14 @@
     <aitarget maxsightrange="1500" />  
   </Item>
   <Item name="Green diving suit" identifier="greendivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="250">
-      <Price locationtype="outpost" multiplier="0.9" minavailable="2"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="4"/>
-      <Price locationtype="research" multiplier="1" minavailable="3"/>
-      <Price locationtype="military" multiplier="1" minavailable="3"/>
-      <Price locationtype="mine" multiplier="1.25" minavailable="5"/>
+    <Price baseprice="500">
+      <Price locationtype="outpost" multiplier="0.9" sold="false"/>
+      <Price locationtype="city" multiplier="0.85" minavailable="1"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1.25" sold="false"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.1"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
@@ -450,14 +450,14 @@
     <aitarget maxsightrange="1500" />
   </Item>
   <Item name="Blue diving suit" identifier="bluedivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="250">
-      <Price locationtype="outpost" multiplier="0.9" minavailable="2"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="4"/>
-      <Price locationtype="research" multiplier="1" minavailable="3"/>
-      <Price locationtype="military" multiplier="1" minavailable="3"/>
-      <Price locationtype="mine" multiplier="1.25" minavailable="5"/>
+    <Price baseprice="600">
+      <Price locationtype="outpost" multiplier="0.9" sold="false"/>
+      <Price locationtype="city" multiplier="0.85" sold="false"/>
+      <Price locationtype="research" multiplier="1" sold="false"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
+      <Price locationtype="mine" multiplier="1.25" sold="false"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
@@ -570,14 +570,14 @@
     <aitarget maxsightrange="1500" />
   </Item>
   <Item name="Indigo diving suit" identifier="indigodivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="430" minleveldifficulty="25">
+    <Price baseprice="700" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="0.9" sold="false"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="2"/>
+      <Price locationtype="city" multiplier="0.85" sold="false"/>
       <Price locationtype="research" multiplier="1" sold="false"/>
-      <Price locationtype="military" multiplier="1" minavailable="3"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1.25" sold="false"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
@@ -689,14 +689,14 @@
     <aitarget maxsightrange="1500" />
   </Item>
   <Item name="Violet diving suit" identifier="violetdivingsuit" category="Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy">
-    <Price baseprice="430" minleveldifficulty="25">
+    <Price baseprice="800" minleveldifficulty="25">
       <Price locationtype="outpost" multiplier="0.9" sold="false"/>
-      <Price locationtype="city" multiplier="0.85" minavailable="2"/>
+      <Price locationtype="city" multiplier="0.85" sold="false"/>
       <Price locationtype="research" multiplier="1" sold="false"/>
-      <Price locationtype="military" multiplier="1" minavailable="3"/>
+      <Price locationtype="military" multiplier="1" sold="false"/>
       <Price locationtype="mine" multiplier="1.25" sold="false"/>
     </Price>
-    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.8"/>
+    <PreferredContainer primary="divingsuitcontainer" spawnprobability="0"/>
     <Deconstruct time="30">
       <Item identifier="titaniumaluminiumalloy" />
       <Item identifier="titaniumaluminiumalloy" />
