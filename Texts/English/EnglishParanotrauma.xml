@@ -94,5 +94,18 @@
     <entityname.indigopaint>Indigo Paint</entityname.indigopaint>
     <entityname.violetpaint>Violet Paint</entityname.violetpaint>
 
+    <afflictionname.redburndamage>Red zapp</afflictionname.redburndamage>
+    <afflictionname.orangeburndamage>Orange zapp</afflictionname.orangeburndamage>
+    <afflictionname.yellowburndamage>Yellow zapp</afflictionname.yellowburndamage>
+    <afflictionname.greenburndamage>Green zapp</afflictionname.greenburndamage>
+    <afflictionname.blueburndamage>Blue zapp</afflictionname.blueburndamage>
+    <afflictionname.indigoburndamage>Indigo zapp</afflictionname.indigoburndamage>
+    <afflictionname.violetburndamage>Violet zapp</afflictionname.violetburndamage>
+    <afflictionname.whiteburndamage>White zapp</afflictionname.whiteburndamage>
+<!--    <afflictiondescription.burn>The area is blistered and red, and skin is already beginning to peel away in sheets. The patient is in a great deal of pain.</afflictiondescription.burn>-->
+<!--    <afflictioncauseofdeath.burn>Burned to death.</afflictioncauseofdeath.burn>-->
+<!--    <afflictioncauseofdeathself.burn>You have burned to death.</afflictioncauseofdeathself.burn>-->
+
+
 
 </infotexts>
